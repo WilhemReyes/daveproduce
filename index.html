@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Dave Produce - Beats y servicios de producción musical de la más alta calidad.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dave Produce</title>
+  <!-- Fuente moderna inspirada en la estética Apple -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome para los íconos de redes sociales -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Dave Produce</div>
+      <nav class="nav">
+        <!-- Se usa <button> en lugar de <div> para cumplir con ARIA -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation" aria-controls="menu" aria-expanded="false">&#9776;</button>
+        <ul id="menu" class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#beats">Beats en Venta</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero con parallax y animaciones sutiles -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <h1 class="hero-title">Dave Produce</h1>
+        <p class="hero-slogan">Tu música, nuestra pasión</p>
+      </div>
+    </section>
+
+    <!-- Beats en Venta -->
+    <section id="beats" class="section">
+      <div class="container">
+        <h2 class="section-title">Beats en Venta</h2>
+        <div class="beats-grid">
+          <div class="beat-card">
+            <h3>Beat Muestra!</h3>
+            <audio controls>
+              <source src="Idea.mp3" type="audio/mpeg">
+              Tu navegador no soporta el reproductor de audio.
+            </audio>
+            <!-- Enlace directo a WhatsApp Business con noopener -->
+            <a href="https://wa.me/34641126874?text=Hola,%20estoy%20interesado%20en%20tus%20servicios%20de%20producción%20musical." target="_blank" rel="noopener noreferrer" class="whatsapp-button">¡Compra Ya!</a>
+          </div>
+          <!-- Agrega más beat-card según sea necesario -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Servicios</h2>
+        <ul class="service-list">
+          <li>Producción Musical</li>
+          <li>Mezcla y Masterización</li>
+          <li>Creación de Beats personalizados</li>
+        </ul>
+        <!-- Enlace directo a WhatsApp Business con noopener -->
+        <a href="https://wa.me/34641126874?text=Hola,%20estoy%20interesado%20en%20tus%20servicios%20de%20producción%20musical." target="_blank" rel="noopener noreferrer" class="whatsapp-button">Cotiza tu proyecto</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Multimedia -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+          <!-- Proyecto Deja Vu EP -->
+          <div class="portfolio-item">
+            <a href="https://youtu.be/McEa0Meb0Is?si=kCHa_3oUBbA7hFgC" target="_blank" rel="noopener noreferrer">
+              <img src="Deja Vu.jpg" alt="Proyecto Deja Vu EP" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h3>Deja Vu EP</h3>
+              <p>Participación en el EP de Ja Rulay, destacando temas como "Tiki Taka" y "Alboroto".</p>
+            </div>
+          </div>
+          <!-- Proyecto Inspirador -->
+          <div class="portfolio-item">
+            <a href="https://youtu.be/y-m_G3lDgLc?si=ymYXRh5iDjtrN6S9" target="_blank" rel="noopener noreferrer">
+              <img src="Cumbion.jpg" alt="Proyecto Inspirador" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h3>Proyecto Inspirador</h3>
+              <p>Colaboración con talentos emergentes en la escena musical cubana.</p>
+            </div>
+          </div>
+          <!-- Nuevo: Video Especial 1 -->
+          <div class="portfolio-item">
+            <a href="https://youtu.be/HX8SOy0IrlY?si=u1x_FpjukBC559Ta" target="_blank" rel="noopener noreferrer">
+              <img src="Alboroto.jpg" alt="Alboroto-Bebeshito & Ja Rulay" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h3>Alboroto-Bebeshito & Ja Rulay</h3>
+              <p>Música y más música!! EP de Ja Rulay, Deja Vu!!</p>
+            </div>
+          </div>
+          <!-- Nuevo: Video Especial 2 -->
+          <div class="portfolio-item">
+            <a href="https://youtu.be/v7-7SO9Pd9k?si=0M6X1oQ5Qlptnebx" target="_blank" rel="noopener noreferrer">
+              <img src="Tiki Taka sesion.jpg" alt="Como se hizo" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h3>Tiki Taka Sesion Studio!!</h3>
+              <p>Descubre contenido extra y exclusivo en este canal!!</p>
+            </div>
+          </div>
+          <!-- Puedes agregar más elementos según tus proyectos -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <p class="about-text">
+          Soy <strong>Dave Produce</strong>, un productor musical cubano con una profunda pasión por la innovación sonora. Desde el corazón de La Habana, he fusionado la rica herencia musical cubana con las tendencias más vanguardistas del hip-hop, reggaetón y trap. Mi misión es transformar cada beat en una experiencia única que inspire y conecte a artistas y audiencias de todo el mundo.
+        </p>
+        <p class="about-text">
+          He trabajado en proyectos emblemáticos y tengo el honor de haber colaborado con talentos emergentes y consagrados. Uno de los hitos más destacados de mi carrera es mi participación en el último EP de <strong>Ja Rulay: "Deja Vu EP"</strong>. En este proyecto, temas como <em>"Tiki Taka"</em> (producido por mí) y <em>"Alboroto"</em> (en colaboración con Daro) han marcado tendencia, consolidando mi sello en la escena musical cubana.
+        </p>
+        <p class="about-text">
+          Mi compromiso es seguir impulsando la evolución musical, rompiendo barreras y reinventando cada sonoridad con originalidad y pasión. Descubre mi viaje musical, déjate inspirar y permitamos juntos redefinir el futuro del sonido.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p>
+          Para procesar tus pagos de manera segura y personalizada, contáctame directamente a través de WhatsApp haciendo clic en el enlace de abajo.
+        </p>
+        <!-- Enlace directo a WhatsApp Business con noopener -->
+        <a href="https://wa.me/34641126874?text=Hola,%20estoy%20interesado%20en%20tus%20servicios%20de%20producción%20musical." target="_blank" rel="noopener noreferrer" class="whatsapp-button">¡Compra Ya!</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <!-- Sección de redes sociales -->
+      <div class="social-icons">
+        <a href="https://wa.me/34641126874" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/daveproduce?igsh=MTBnMGhkYjExaTJ6Mg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/@daveproduce" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <p>© 2025 Dave Produce | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
